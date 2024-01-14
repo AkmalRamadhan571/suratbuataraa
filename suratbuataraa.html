@@ -1,0 +1,93 @@
+<html><meta charset='UTF-8'/><meta content='width=device-width, initial-scale=1, user-scalable=1, minimum-scale=1, maximum-scale=5' name='viewport'/><meta content='IE=edge' http-equiv='X-UA-Compatible'/>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.all.min.js"></script>
+  <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+  <link href="https://htmlku.com/dariku/style.css" rel="stylesheet" type="text/css" />
+
+<head>
+<title>Script HTML Pesan Dariku - feeldream</title>
+</head>
+<body>
+	
+   <div id="bodyblur">
+     <!-- Wallpaper / Background --><img src="https://feeldreams.github.io/pics/awan/2.jpg" id="wallpaper"/>
+   </div>
+  
+  <div class="kumpulanstiker">
+         <!-- Stiker untuk Konten -->
+         <img src="https://htmlku.com/0/panda/pusn.gif" id="fotoakhir1"/>
+         <img src="https://feeldreams.github.io/mndkat.gif" id="fotoakhir2"/>
+         <img src="https://i.ibb.co/xGc2wBh/cartoons.gif" id="fotoakhir3"/>
+         <img src="https://htmlku.com/0/panda/gemoy.gif" id="fotoakhir4"/>
+  </div>
+
+   <div id='Content'>
+   	
+     <div id="suratin" onClick="memulai();audio.play();">
+       <!-- Surat --><img src="https://rayyscoding.github.io/envelope.png"/>
+     </div>
+     <p id="ket">Klik Suratnya!</p>
+   
+     <div><!-- Foto Akhir --><img src="https://i.ibb.co/z7N6gKp/tos.gif" id="fotoakhir" /></div>
+     <div><blockquote id='bq'>
+       <p id="kalimat"></p>
+       <p id="kalimatc"></p>
+     </blockquote></div>
+   
+     <!-- Tombol Kirim Pesan -->
+     <div id="Tombol">
+       <a onClick="sjawab()">
+         <b>💌 Balas</b>
+       </a>
+     </div>
+     
+   </div>
+
+<div class='sticky-ad' id='sticky-ad'>
+ <div class='adB'><a rel="dofollow" href='https://bit.ly/htmlfeeldream'>Lihat Script HTML Lainnya di Sini!</a></div>
+<button aria-label='Close this ad' class='sticky-ad-close-button' onclick='hilangkan();'/>
+</div>
+
+<script src="https://htmlku.com/dariku/script.js"></script>
+
+<!-- Ganti Kata², Foto, Lagu di bawah ya
+1) Upload foto ke https://postimages.org
+     buat dapetin linknya
+2) Ganti Lagu Upload ke replit.com
+     atau bisa juga ke mailboxdrive.com -->
+
+<script type="text/javascript">
+       async function jawab(){await swals.fire('Kirim pesan ke WhatsApp aku, ya!');window.location = "https://api.whatsapp.com/send?phone=&text=" + pesanwhatsapp;}
+
+       async function pertama(){
+         audio = new Audio('https://feeldreams.github.io/punyasesuatu/karenabersamamu.mp3');setTimeout(showDiv,1000);
+       } pertama();
+	
+       
+       async function pesan(){
+             	await swalst.fire({
+                  title: 'Hallo Araa! 😍', 
+                  imageUrl: '' + fotoakhir1.src,
+                  });   	
+                 await swalst.fire({
+                  title: 'Semangat Menjalani Harinya yaa 😇',
+                  imageUrl: '' + fotoakhir2.src,
+                  });
+                 await swalst.fire({
+                  title: 'Makasih yaa suratnyaa udah dibaca kok 😍',
+                  imageUrl: '' + fotoakhir3.src,
+                  });
+                 await swalst.fire({
+                  title: 'Oh iya ada sedikit ucapan nih dari gua dibaca yaa heheh 😁',
+                  imageUrl: '' + fotoakhir4.src,
+                  });
+                  
+                  katangetik = "<b>Ara Layout :</b><br><br>Hallo araa, jujur dulu pas pertama kali masuk EC itu cuman kenal zein sama adam aja, terus pas masuk layout gua baru tau kalo ada anak pap juga namanya mahesa mutiara panggilannya 'ara' tapi gua suka manggil nya 'mahesa' karena gua ga enak aja gitu manggil ara kyk sok akrab heheh. Jujur gua dulu ga kenal anak pap kelas a sama sekali, semenjak gua kenal lo tuh anaknya kalem, baik, dan dingin bgt jadi gua tuh kalo mau manggil lo tuh takut lo risih karna gua panggil heheh. Kita juga beberapa kali suka sempet ketemu di TJ dan kereta pas mau ke kampus wkwkkww ternyata sama pejuang pp zombie manggarai juga hahahah jangan kapok ya kalo ktemu gua dimanapun itu 😊<br></br> Oh iya gua juga mau ngucapin makasih banyak udah mau kerja sama dan berjuang bareng gua dan temen-temen yang lain di layout baik proker maupun non-proker selama 1 periode ini. Mau apresiasi juga buat desain lu tuh kece dan keren-keren banget semuanya, bikin gua speechlees dengan karya-karya lu selama di layout. Gua juga sekalian disini mau minta maaf kalo gua ada salah-salah kata atau perbuatan yang bikin lu tersinggung atau sakit hati selama gua di layout atau di luar EC, sekali lagi gua minta maaf ya araa 😇<br></br><br>Semangat selalu yaa kalo lanjut 2 periode semoga bisa mengemban amanahnya dengan baik dan tolong di rangkul staff nya biar bisa tambah kece lagi di layout buat EC biar makin sukses lagi. Doa terbaik juga buat lu ditahun ini, semoga bahagia selalu dan sehat selalu yaa araa. Semangat dan lancar selalu ya kuliahh di semester 4, kalo mau tanya apa-apa perkuliahan WA aja ya ga usah malu hehehe 🙏😇❤️";
+                  katangetik2 = "<i>Akmal Layout</i>";
+                  
+                  pesanwhatsapp = "Akmal Layout 🤍";
+                 setTimeout(kpemb,200);
+            }
+</script>
+</body>
+</html>
